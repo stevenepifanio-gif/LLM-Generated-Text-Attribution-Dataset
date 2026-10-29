@@ -1,0 +1,44 @@
+{
+  "models": [
+    {
+      "label": 0,
+      "source_model": "Qwen2-7B-Instruct",
+      "official_model_card": "https://huggingface.co/Qwen/Qwen2-7B-Instruct",
+      "model_terms": "Apache-2.0 model card",
+      "historical_weights_revision": null,
+      "historical_weights_complete_hash_inventory_available": false
+    },
+    {
+      "label": 1,
+      "source_model": "gemma-2-9b-it",
+      "official_model_card": "https://huggingface.co/google/gemma-2-9b-it",
+      "model_terms": "Gemma Terms of Use",
+      "historical_weights_revision": null,
+      "historical_weights_complete_hash_inventory_available": false
+    },
+    {
+      "label": 2,
+      "source_model": "deepseek-llm-7b-chat",
+      "official_model_card": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat",
+      "model_terms": "DeepSeek Model License v1.0",
+      "historical_weights_revision": null,
+      "historical_weights_complete_hash_inventory_available": false
+    },
+    {
+      "label": 3,
+      "source_model": "Meta-Llama-3-8B-Instruct",
+      "official_model_card": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "model_terms": "Meta Llama 3 Community License",
+      "historical_weights_revision": null,
+      "historical_weights_complete_hash_inventory_available": false
+    },
+    {
+      "label": 4,
+      "source_model": "Mistral-7B-Instruct-v0.2",
+      "official_model_card": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+      "model_terms": "Apache-2.0 model card",
+      "historical_weights_revision": null,
+      "historical_weights_complete_hash_inventory_available": false
+    }
+  ]
+}

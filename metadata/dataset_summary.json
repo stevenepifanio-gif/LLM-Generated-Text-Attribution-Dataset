@@ -1,0 +1,57 @@
+{
+  "release_type": "metadata-only",
+  "generated_records_represented": 15270,
+  "original_input_groups": 3054,
+  "released_input_texts": 0,
+  "released_generated_texts": 0,
+  "domains": {
+    "yelp": {
+      "train": {
+        "inputs": 1400,
+        "records": 7000
+      },
+      "valid": {
+        "inputs": 200,
+        "records": 1000
+      },
+      "test": {
+        "inputs": 400,
+        "records": 2000
+      },
+      "total_inputs": 2000,
+      "total_records": 10000
+    },
+    "arxiv": {
+      "train": {
+        "inputs": 245,
+        "records": 1225
+      },
+      "valid": {
+        "inputs": 35,
+        "records": 175
+      },
+      "test": {
+        "inputs": 70,
+        "records": 350
+      },
+      "total_inputs": 350,
+      "total_records": 1750
+    },
+    "news": {
+      "train": {
+        "inputs": 492,
+        "records": 2460
+      },
+      "valid": {
+        "inputs": 70,
+        "records": 350
+      },
+      "test": {
+        "inputs": 142,
+        "records": 710
+      },
+      "total_inputs": 704,
+      "total_records": 3520
+    }
+  }
+}

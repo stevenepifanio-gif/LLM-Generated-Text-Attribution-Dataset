@@ -1,0 +1,26 @@
+{
+  "freeze_sha256": "b7f5bfebd9e73abe84a248c98502f3abf3f29f2f59dad07b3084ea4d766a94cd",
+  "manifest_sha256": {
+    "yelp_train_input_ids.json": "5a8fd87c877c60f3abc74fe51fdc5d084712700587ac98824011f44777d74e84",
+    "yelp_train_records.json": "31526099cb716b1985bd2d8a079e3e3a0960f783f7628d036f3ff122bd7cae0b",
+    "yelp_valid_input_ids.json": "0e643eadb873c8d5fdc0ecff7880d8c6e5dfe5ce71c2ee3f0ad15b37b930b5ba",
+    "yelp_valid_records.json": "6ea69949592cf21602d708db550150e182f763e56fc4d5fdc3ee46222a00187b",
+    "yelp_test_input_ids.json": "86e145d5ebe3f1d3811dbf11e214735e469049b5d7adbda2c7a3117bcb2373bc",
+    "yelp_test_records.json": "2be0f6322a7aebc6d54e2ab74cb48df0a886f32453271c674175d23864d7a147",
+    "arxiv_train_input_ids.json": "af375a48fbd7b783e82752383463bab36dc45b4c516112cf63045dbdb4b3659b",
+    "arxiv_train_records.json": "22e3fba354b82f7c376bedbe9670726e7db1baef5d6393dfce592fd4425afb24",
+    "arxiv_valid_input_ids.json": "218291949af22c68f5655d2ebe64a6ef96fb2ef2d98c21e2c3b2bd543f55cb47",
+    "arxiv_valid_records.json": "63009536909a2298a7de8707ed0817e65699af3b488348693da4448d0892d894",
+    "arxiv_test_input_ids.json": "75908ac3dff19f19d6b9a3bc6c0d3c4dc7a5d398bf6f1cdb3ded03c2acd6145c",
+    "arxiv_test_records.json": "3718409038310a83d7928cc3e15054a66232ecbf028cd4abd7d36c6eb6d9a7b1",
+    "news_train_input_ids.json": "94ebff9f4184efbfd3cd9f16de56abacac9569a38f763c6780617baa2f9e572a",
+    "news_train_records.json": "dfd6e50e81b41427793dc1fc3a979f985807fbb4f9d1fd6df5372a9f16d40611",
+    "news_valid_input_ids.json": "e7b00ccd00a1ab894c63ace933148116371f6551aabd3913fe9ac356ef55e209",
+    "news_valid_records.json": "06eab254b4be2d411e13cde8acecbc962ef36e5ea9cf9faf7019adc996bba564",
+    "news_test_input_ids.json": "33240fbf97fba9075c2e0514139357b6f2b72762a7c7ff2f1c9aa2c89b47cbf6",
+    "news_test_records.json": "a5cbf80bccfdf1c1dbc204c2a1147debb568ef0866facb320ad4dd10a1c86891"
+  },
+  "split_seed": 42,
+  "split_algorithm": "sorted exact input text; sklearn train_test_split 0.3 then 2/3, both random_state=42",
+  "note": "Names are snapshot basenames, not public text downloads. Private input-ID manifests themselves are not copied."
+}

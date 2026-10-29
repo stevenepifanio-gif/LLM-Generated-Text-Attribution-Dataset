@@ -1,0 +1,10 @@
+{
+  "file_count": 29,
+  "total_bytes": 8714999,
+  "max_file_bytes": 3954051,
+  "max_file": "data/yelp/train.jsonl",
+  "limit_per_file_bytes": 26214400,
+  "limit_files_per_browser_upload": 100,
+  "within_browser_limits": true,
+  "scope": "metadata-only; no text bodies"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "UPLOAD_METADATA_ONLY",
+  "text_redistribution_cleared": false,
+  "withheld_original_inputs": 3054,
+  "withheld_generated_outputs": 15270,
+  "public_body_text_records": 0,
+  "domains": {
+    "yelp": {
+      "withheld_original_inputs": 2000,
+      "withheld_generated_outputs": 10000,
+      "reason": "Academic-access restrictions; no verified public redistribution permission for reviews or rewrites."
+    },
+    "arxiv": {
+      "withheld_original_inputs": 350,
+      "withheld_generated_outputs": 1750,
+      "reason": "No item/version/license mapping for stored derived abstracts and rewrites."
+    },
+    "news": {
+      "withheld_original_inputs": 704,
+      "withheld_generated_outputs": 3520,
+      "reason": "RAIDAR lineage confirmed but original Reuters text permissions and UCI CC-BY statement not reconciled."
+    }
+  }
+}

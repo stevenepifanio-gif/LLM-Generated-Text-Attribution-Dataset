@@ -1,0 +1,35 @@
+{
+  "review_date": "2026-10-29",
+  "domains": {
+    "yelp": {
+      "dataset": "Yelp/yelp_review_full",
+      "url": "https://huggingface.co/datasets/Yelp/yelp_review_full",
+      "upstream_split": "train",
+      "field": "text",
+      "historical_recipe": "first2000 nonempty records, collapse whitespace",
+      "historical_revision": null,
+      "upstream_row_ids_recovered": false
+    },
+    "arxiv": {
+      "dataset": "ccdv/arxiv-summarization",
+      "url": "https://huggingface.co/datasets/ccdv/arxiv-summarization",
+      "upstream_split": "train",
+      "field": "abstract",
+      "historical_recipe": "first350 nonempty records, collapse whitespace",
+      "historical_revision": null,
+      "historical_config": null,
+      "paper_version_and_license_crosswalk_available": false
+    },
+    "news": {
+      "dataset": "Reuters50-50 lineage through Ghostbuster/RAIDAR",
+      "url": "https://raw.githubusercontent.com/cvlab-columbia/RaidarLLMDetect/main/News/Human.json",
+      "uci_url": "https://archive.ics.uci.edu/dataset/217/reuter+50+50",
+      "evidence": "Frozen local verification identifies730 upstream records, normalized first-occurrence deduplication gives704, exact order match and public file byte identity recorded.",
+      "upstream_snapshot_sha256": "fc60e30eb639a0ce9ef7825bd8efd1e73e21d0f490a39708ec564710ad5d3b8d",
+      "upstream_rows": 730,
+      "unique_inputs": 704,
+      "article_ids_and_original_build_script_recovered": false
+    }
+  },
+  "evidence_sha256": "8e05a0cfb21cbbb44e22a3419de36876efd3813c6c04fc942e0f3a31de8ba733"
+}

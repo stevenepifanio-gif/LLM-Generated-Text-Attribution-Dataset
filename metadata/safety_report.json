@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "export_strategy": "explicit metadata field allowlist; no prose-copy operation",
+  "released_input_or_output_body_fields": 0,
+  "checkpoint_files": 0,
+  "private_machine_config_files": 0,
+  "unrelated_experiment_files": 0,
+  "secret_or_contact_pattern_findings": [],
+  "checks": [
+    "private_key",
+    "service_token",
+    "aws_access_key",
+    "private_ipv4",
+    "personal_machine_path",
+    "email",
+    "international_phone_like_values",
+    "us_ssn_like_values"
+  ],
+  "limits": "Pattern checks are not proof of universal PII absence; original text is withheld in full. Fingerprints can enable matching and are not anonymous identifiers. Newly written docs/scripts were reviewed for source paths and secrets.",
+  "private_reconstruction_test_records": 15270,
+  "public_directory_reconstruction_block_test_passed": true,
+  "missing_text_loader_guard_test_passed": true
+}

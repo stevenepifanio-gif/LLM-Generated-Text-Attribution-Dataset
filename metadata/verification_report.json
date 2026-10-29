@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "source_checks": [
+    {
+      "domain": "yelp",
+      "split": "train",
+      "records": 7000,
+      "input_groups": 1400,
+      "five_sources_per_group": true,
+      "formal_ids_and_content_hashes_match": true,
+      "empty_inputs": 0,
+      "empty_outputs": 0
+    },
+    {
+      "domain": "yelp",
+      "split": "valid",
+      "records": 1000,
+      "input_groups": 200,
+      "five_sources_per_group": true,
+      "formal_ids_and_content_hashes_match": true,
+      "empty_inputs": 0,
+      "empty_outputs": 0
+    },
+    {
+      "domain": "yelp",
+      "split": "test",
+      "records": 2000,
+      "input_groups": 400,
+      "five_sources_per_group": true,
+      "formal_ids_and_content_hashes_match": true,
+      "empty_inputs": 0,
+      "empty_outputs": 0
+    },
+    {
+      "domain": "arxiv",
+      "split": "train",
+      "records": 1225,
+      "input_groups": 245,
+      "five_sources_per_group": true,
+      "formal_ids_and_content_hashes_match": true,
+      "empty_inputs": 0,
+      "empty_outputs": 0
+    },
+    {
+      "domain": "arxiv",
+      "split": "valid",
+      "records": 175,
+      "input_groups": 35,
+      "five_sources_per_group": true,
+      "formal_ids_and_content_hashes_match": true,
+      "empty_inputs": 0,
+      "empty_outputs": 0
+    },
+    {
+      "domain": "arxiv",
+      "split": "test",
+      "records": 350,
+      "input_groups": 70,
+      "five_sources_per_group": true,
+      "formal_ids_and_content_hashes_match": true,
+      "empty_inputs": 0,
+      "empty_outputs": 0
+    },
+    {
+      "domain": "news",
+      "split": "train",
+      "records": 2460,
+      "input_groups": 492,
+      "five_sources_per_group": true,
+      "formal_ids_and_content_hashes_match": true,
+      "empty_inputs": 0,
+      "empty_outputs": 0
+    },
+    {
+      "domain": "news",
+      "split": "valid",
+      "records": 350,
+      "input_groups": 70,
+      "five_sources_per_group": true,
+      "formal_ids_and_content_hashes_match": true,
+      "empty_inputs": 0,
+      "empty_outputs": 0
+    },
+    {
+      "domain": "news",
+      "split": "test",
+      "records": 710,
+      "input_groups": 142,
+      "five_sources_per_group": true,
+      "formal_ids_and_content_hashes_match": true,
+      "empty_inputs": 0,
+      "empty_outputs": 0
+    }
+  ],
+  "source_records": 15270,
+  "input_groups": 3054,
+  "nonempty_original_and_generated_text_checked": true,
+  "original_input_cross_split_overlap": 0,
+  "five_distinct_models_per_input": true,
+  "cross_domain_exact_input_hash_overlap": {
+    "yelp/arxiv": 0,
+    "yelp/news": 0,
+    "arxiv/news": 0
+  },
+  "exact_output_hash_cross_split_overlap": {
+    "yelp": {
+      "train/valid": 0,
+      "train/test": 0,
+      "valid/test": 0
+    },
+    "arxiv": {
+      "train/valid": 0,
+      "train/test": 0,
+      "valid/test": 0
+    },
+    "news": {
+      "train/valid": 0,
+      "train/test": 0,
+      "valid/test": 0
+    }
+  },
+  "source_snapshot_unmodified": true,
+  "article_document_level_nonoverlap_proven": false,
+  "repair_records": 4
+}
