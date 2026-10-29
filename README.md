@@ -32,24 +32,6 @@ The exact template is `"{instruction}:\n\n{input_text}\n\nOutput:"` (real newlin
 
 There are 15,266 `offline_regeneration` records and four historical Gemma/Arxiv `offline_regeneration_repair` records (train 2, valid 1, test 1). These exceptions are retained. `prompt_split` is a historical generation field, not the final split. Complete historical generator weight/tokenizer revisions and weight hashes are unavailable; these settings are not a byte-identical regeneration guarantee. No new generation was performed for this release.
 
-## Files and use
-
-`data/<domain>/<train|valid|test>.jsonl` contains one metadata row per generated example, including group IDs, source labels, instruction IDs and exact UTF-8 input/output SHA-256 fingerprints. **No `input` or `output` body fields are present.** `original_input_id` is an engineering join ID, not an upstream review or article identifier. Fingerprints enable matching against independently held data and are not an anonymity guarantee.
-
-Python 3.9+; standard library only. From this folder:
-
-```bash
-python scripts/verify_integrity.py
-python scripts/load_dataset.py --domain yelp --split train --limit 2
-```
-
-The loader returns metadata; its `require_text` helper deliberately raises an error on this package. It is not possible to train a text classifier from these metadata alone. A person lawfully holding the exact frozen manifests can reconstruct private JSONL copies outside the upload folder:
-
-```bash
-python scripts/rebuild_private.py --manifest-dir ../private_formal_manifests --output-dir ../private_reconstruction --acknowledge-local-only
-```
-
-This script verifies source-file and per-record hashes before writing, preserves exact stored strings, and does not download, regenerate, re-split, or grant publication rights. See [UPSTREAM_ACCESS.md](UPSTREAM_ACCESS.md) for access guidance and reconstruction limitations.
 
 ## Scope and limitations
 
